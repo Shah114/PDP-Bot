@@ -37,4 +37,10 @@ This repository contains the code for a Telegram Bot that predicts plant disease
 <br/>
 
 ## Usage
+* Start the bot on Telegram: Open your Telegram app, find your bot, and start a chat.
+* Send a plant leaf image: The bot will analyze the image using the CNN model and respond with the health status of the plant.
+* Receive disease information: If the plant is diseased, the bot will provide the name of the disease and how to solve the issue. <br/>
+<br/>
+
+## Technologies Used
 
