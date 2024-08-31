@@ -1,0 +1,6 @@
+tensorflow
+google.generativeai
+io
+telegram
+easygoogletranslate
+config
