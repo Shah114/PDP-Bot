@@ -11,3 +11,11 @@ This repository contains the code for a Telegram Bot that predicts plant disease
 <br/>
 
 ## Project Structure
+* main.py: The main script to run the Telegram bot.
+* config.py: Stores the API keys and token required for the Gemini API and Telegram bot, managed using the config module.
+* cnn_model.h5: The pre-trained CNN model used for predicting plant diseases.
+* class_indices.json: Json file that includes all the plants that trained 
+* requirements.txt: A list of all necessary Python packages for the project. <br/>
+<br/>
+
+## 
