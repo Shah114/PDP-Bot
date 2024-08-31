@@ -30,7 +30,8 @@ This repository contains the code for a Telegram Bot that predicts plant disease
    ```
 3. Set up the configuration: <br/>
    Replace the placeholders in config.py with your Gemini API key and Telegram bot token.
-4. Run the bot:
+4. Unzip trained_model.zip file
+5. Run the bot:
    ```bash
    python main.py
    ```
