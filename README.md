@@ -8,3 +8,6 @@ This repository contains the code for a Telegram Bot that predicts plant disease
 * Solution Suggestions: The bot provides information about the disease and suggests ways to address the problem.
 * Language Translation: The bot can translate information between English and Azerbaijani using the EasyGoogleTranslate module.
 * AI Integration: Utilizes the google.generativeai palm module for enhanced AI capabilities. <br/>
+<br/>
+
+## Project Structure
