@@ -43,4 +43,12 @@ This repository contains the code for a Telegram Bot that predicts plant disease
 <br/>
 
 ## Technologies Used
+* Python: The primary programming language for the bot.
+* Telegram Bot API: Used to create and manage the Telegram bot.
+* Gemini API: Analyzes the plant leaf images.
+* EasyGoogleTranslate: For language translation between English and Azerbaijani.
+* google.generativeai palm: For AI functionalities.
+* CNN Model: Pre-trained model for predicting plant diseases. <br/>
+<br/>
 
+##
