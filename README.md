@@ -21,8 +21,12 @@ This repository contains the code for a Telegram Bot that predicts plant disease
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/plant-disease-prediction-bot.git
+   git clone https://github.com/Shah114/plant-disease-prediction-bot.git
    cd plant-disease-prediction-bot
    ```
-2. 
+2. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. 
 
