@@ -18,4 +18,11 @@ This repository contains the code for a Telegram Bot that predicts plant disease
 * requirements.txt: A list of all necessary Python packages for the project. <br/>
 <br/>
 
-## 
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/plant-disease-prediction-bot.git
+   cd plant-disease-prediction-bot
+   ```
+2. 
+
