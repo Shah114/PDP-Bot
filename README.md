@@ -51,4 +51,5 @@ This repository contains the code for a Telegram Bot that predicts plant disease
 * CNN Model: Pre-trained model for predicting plant diseases. <br/>
 <br/>
 
-##
+## Contributing
+Contributions are welcome! Feel free to open an issue or submit a pull request.
