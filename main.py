@@ -25,7 +25,7 @@ translator_to_az = EasyGoogleTranslate(
 
 # Load the model and class indices
 working_dir = os.path.dirname(os.path.abspath(__file__))
-model_path = f"{working_dir}/trained_model/plant_disease_prediction_model.h5"
+model_path = f"{working_dir}/trained_model/pdp_model.h5"
 model = tf.keras.models.load_model(model_path)
 
 class_indices = json.load(open(f"{working_dir}/class_indices.json"))
