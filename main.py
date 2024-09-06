@@ -4,7 +4,7 @@ import json
 from PIL import Image
 import numpy as np
 import tensorflow as tf
-import google.generativeai as palm
+import google.generativeai as genai
 from io import BytesIO
 from telegram import Update
 from telegram.ext import (ApplicationBuilder, CommandHandler, MessageHandler, filters, 
@@ -31,7 +31,7 @@ model = tf.keras.models.load_model(model_path)
 class_indices = json.load(open(f"{working_dir}/class_indices.json"))
 
 # Google Generative AI API Key
-palm.configure(api_key=config.api_key)
+genai.configure(api_key=config.api_key)
 
 # Telegram Bot Token
 application = ApplicationBuilder().token(config.bot_token).build()
@@ -67,7 +67,7 @@ async def get_disease_info(class_type, class_name):
     if class_type == "healthy":
         response_text = f"The plant is healthy. {class_name} plants are in good condition."
     else:
-        response = palm.generate_text(
+        response = genai.generate_text(
             prompt=f"Provide detailed information about the plant disease called {class_name}.",
             model="models/text-bison-001"
         )
