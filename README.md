@@ -53,4 +53,4 @@ This repository contains the code for a Telegram Bot that predicts plant disease
 <br/>
 
 ## Contributing
-Contributions are welcome! Feel free to open an issue or submit a pull request.
+Contributions are welcome! Feel free to open an issue or submit a pull request. <br/>
